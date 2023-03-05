@@ -10,7 +10,7 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-
+//Variables
         val Addition = findViewById<Button>(R.id.btnAddition);
         val Subtraction = findViewById<Button>(R.id.btnSubtract);
         val Division = findViewById<Button>(R.id.btnDivide);
